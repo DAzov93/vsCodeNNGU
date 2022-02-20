@@ -1,13 +1,15 @@
 
-const ourPlanetName = 'Земля';
+const ourPlanetName //Переменная для “названия нашей планеты”
 
-let userCurrentTime;
+let userCurrentTime; //Переменная для “текущее время пользователя”
 
-let numberArticles;
+let numberArticles; //Переменная которая показывает “количества статей”
 
-let paymentMethod = prompt('чем платить будете ??');
+let paymentMethod; //Переменная которая показывает “это оплата наличными деньгами или нет”
 
-let firstName;
-let lastName;
-let patronymic;
+let firstName; // имя
+
+let lastName; // фамилия
+
+let patronymic; // отчество
 
