@@ -1,3 +1,1 @@
 ﻿# vsCodeNNGU
-
-efewfewfefewf
