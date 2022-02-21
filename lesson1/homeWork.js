@@ -13,5 +13,3 @@ let lastName; // фамилия
 
 let patronymic; // отчество
 
-alert('все получилось');
-
