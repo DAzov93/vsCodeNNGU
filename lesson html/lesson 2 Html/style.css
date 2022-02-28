@@ -17,6 +17,10 @@ header {
 }
 
 .container {
+  display: flex; /* для опуска флекс */
+  flex-direction: column; /* для опуска флекс чтобы каждый элемент следлвал друг за другом*/
+  min-height: 100vh; /* 100% от нашего обзора 
+  (это процент от высоты фактического окна просмотра) */
   width: 1140px;
   margin: 0 auto;
 }
@@ -71,4 +75,5 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 40px;
+  margin-top: auto; /* для опуска флекс, пока не упрется в конец */
 }
