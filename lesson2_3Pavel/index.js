@@ -90,7 +90,7 @@ const string2 = "солнце";
 console.log(string1 == string2); // false тк разные строки */
 
 // всеглда сравниваем строгим сравнением !!!
-/* const userTypes = {
+const userTypes = {
   admin: "admin",
   user: "user",
   teatcher: "teatcher",
@@ -103,6 +103,6 @@ if (constServerData === userTypes.admin) {
   console.log("показать весть контент");
 } else {
   console.log("показать огранияяенный контент");
-} */
+} 
 
 
