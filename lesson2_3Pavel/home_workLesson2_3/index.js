@@ -1,6 +1,6 @@
 "use strict";
 
-console.log(5 > 4); //true
+/* console.log(5 > 4); //true
 console.log("ананас" > "яблоко"); //false
 console.log("2" > "12"); // true
 console.log(undefined == null); // true
@@ -19,3 +19,9 @@ console.log('-9' + 5); // -95 унарный +
 console.log("-9" - 5); // -14 приведет к числу и будет -9 -5 = -14
 console.log(null + 1); //1  в числовом преобразовании null становится 0 
 console.log(undefined + 1); // NaN , в числовом преобразовании undefined становится NaN
+ */
+
+// let a = null
+// console.log(a);
+console.log(NaN == undefined);
+
