@@ -83,5 +83,9 @@ ul {
 
 .main-banner-info {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.banner-offer { 
+  justify-content: space-around;
 }
