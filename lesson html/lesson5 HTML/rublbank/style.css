@@ -1,0 +1,264 @@
+/* общие стили */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.banner-head {
+    margin-bottom: 10px;
+    font-size: 52px;
+    font-weight: 600;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 55px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btn-primary {
+    background-color: #3A95FF;
+    color: #fff;
+}
+.btn-secondary {
+    border: 1px solid #3A95FF;
+    color: #3A95FF;
+    box-sizing: border-box;
+}
+.info-buttons {
+    width: 437px;
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 40px;
+    color: #212121;
+}
+/* стили хэдера */
+.header-top, .header-bottom {
+    border-bottom: 1px solid #dedede;
+}
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+}
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 945px;
+}
+.top-menu-list, .main-menu-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.top-menu-list a, .main-menu-list a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #424242;
+}
+.top-menu-list-left {
+    width: 352px;
+}
+.top-menu-list-right {
+    width: 340px;
+}
+.main-menu-list {
+    align-items: center;
+    height: 73px;
+    list-style: none;
+}
+.main-menu-list a {
+    font-size: 16px;
+}
+
+/* стили баннера */
+.banner-bg {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* стили лучшие предложения */
+.offers {
+    margin-top: 70px;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 662px;
+    margin-top: 70px ;
+}
+.products-item {
+    width: 555px;
+    height: 300px;
+    background-color: #EFF2F5;;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    display: flex;
+    box-sizing: border-box;
+}
+.products-item img {
+    border-radius: 0 8px 8px 0;
+}
+.products-item-info {
+    margin: 34px 0 0 34px;
+}
+.products-item-info h2 {
+    margin: 0;
+}
+
+/* карта 60 */
+.credits {
+    background-color: #EFF2F5;
+    margin-top: 100px;
+}
+.credits-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 138px 0;
+    box-sizing: border-box;
+}
+.credits-60 {
+    background: #E0E5EA;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 750px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.credits-60-head {
+    display: flex;
+    width: 651px;
+    justify-content: space-between;
+}
+.credits-60-head p {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+    color: #212121;
+}
+.credits-60-info {
+    display: flex;
+    justify-content: space-between;
+    width: 545px;
+}
+.credits-60-info-item {
+    width: 157px;
+    text-align: center;
+}
+.credits-60-item-top {
+    font-weight: 500;
+    font-size: 30px;
+    color: #212121;
+    border-bottom: 1px solid #3A95FF; 
+}
+.credits-60-item-bottom {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%
+}
+/* стили бокового блока - карты-ссылки */
+.cards-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cards-right-item {
+    background-color: #F6F6F6;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-bottom: 5px solid #3A95FF;
+    width: 360px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 34px;
+    box-sizing: border-box;
+}
+.cards-right-item a {
+    align-self: flex-end;
+}
+.cards-right-item p {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: #212121;
+}
+/* как получить карту */
+.get-card-wrap {
+    margin-top: 70px;
+    margin-bottom: 110px;
+}
+.get-card {
+    width: 872px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.get-card h1 {
+    margin-bottom: 70px;
+}
+/* стили футера */
+footer {
+    background-color: #EFF2F5;
+}
+.footer-info {
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-info-item {
+    width: 360px;
+    height: 94px;
+    font-size: 14px;
+    line-height: 130%;
+    color: #424242;
+}
+.footer-info-item-h {
+    font-weight: 600;
+    color: #424242;
+}
+
+/* стили страницы Дебетовые карты  */
+.debet-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EFF2F5;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+.debet-cards-info {
+    margin-right: 115px;
+    font-size: 20px;
+    line-height: 200%;
+    color: #424242;
+}
+.debet-cards-info h2 {
+    margin-top: 0;
+}

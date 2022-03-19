@@ -239,6 +239,13 @@ console.log(result); */
 let result = (+strocks[0] + +strocks[1] + +strocks[2] === +strocks[3] + +strocks[4] + +strocks[5])? 'да' : 'нет';
 console.log(result); */
 
+/* let strocks = '123123';
+if (+strocks[0] + +strocks[1] + +strocks[2] === +strocks[3] + +strocks[4] + +strocks[5]){
+    console.log('верно');
+} else{
+    console.log('не верно');
+} */
+
 //циклы
 
 //1
@@ -311,11 +318,11 @@ for(let num = 1; num <= 100; num++){
 
 
 //обязательно изучить!!!!!
-let myArray = [10, 20, 30, 50, 235, 3050];
+/* let myArray = [10, 20, 30, 50, 235, 3050];
 
 for(let i = 0; i < myArray.length; i++){
     let firstArrayElement = myArray[i].toString();
     if (firstArrayElement[0] === '1' || firstArrayElement[0] === '2' || firstArrayElement[0] ==='5'){
         console.log(firstArrayElement);
     }
-}
+} */
