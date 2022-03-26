@@ -255,16 +255,77 @@ console.log(newMyArray); */
 
 //14
 
-/* let newMyArray = []
+let newMyArray = []
 function getDivisors (n){
-    for(let i  = 2; i < n; i++){
+    for(let i  = 1; i < n; i++){
         if (n % i == 0){
             newMyArray.push(i);
         }
     }
     return newMyArray;
 }
-getDivisors(22);
-console.log(newMyArray); */
+getDivisors(8);
+console.log(newMyArray);
 
-//дорешать ОБЯЗАТЕЛЬНО 15 И 16 и еще в презентации последнюю
+//дорешать ОБЯЗАТЕЛЬНО 15 И 16 и еще в презентации последнюю   
+
+
+/* //15
+
+let myCalcSumFunction = (n) => {
+    let y = n.toString();
+    let calcSumStr = null;
+    for (let i = 0; i < y.length; i++) {
+        calcSumStr += +y[i];
+    }
+
+    if (calcSumStr > 9) {
+        return myCalcSumFunction(calcSumStr);
+    } else return calcSumStr;
+}; */
+
+/* let n = 99;
+let getSumNum = (n) => {
+    let y = n.toString ();
+    let sumNum = null;
+    for (let i = 0; i < y.length; i++){
+        sumNum += + y[i];
+    }
+
+    if (sumNum > 9){
+      return  getSumNum (sumNum);
+    }else return sumNum;
+}
+
+console.log(getSumNum(9)); */
+
+//16 с помощью цикла решение
+//let userName = 'анна';
+
+/* let myCheckFunction = (str) => {
+    let getStrRev = '';
+    for (let i = str.length; i >= 0; i--) {
+        if (str[i] !== undefined) {
+            getStrRev += str[i];
+        }
+    }
+    if (getStrRev == str){
+        return true;
+    }else return false;
+};
+
+
+console.log(myCheckFunction(userName)); */
+
+//16 с помощью метода
+/* let userName = 'sos';
+
+let getStrRev = (str) => {
+    let strFunc = str.toLowerCase ();
+    let y = strFunc.split('').reverse().join('');
+    if (strFunc == y){
+        return true
+    }else return false;
+}
+
+console.log(getStrRev(userName)); */
