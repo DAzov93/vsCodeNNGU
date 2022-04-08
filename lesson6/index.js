@@ -130,7 +130,76 @@ console.log(modifiedUsesrs); */
 
 
 //проверял filter
-let myArray = [1,2,4,6,-2,-13];
+/* let myArray = [1,2,4,6,-2,-13];
 
 let myFuncFilt = myArray.filter((elem) => elem > 0);
-console.log(myFuncFilt);
+console.log(myFuncFilt); */
+
+
+//2 апреля
+
+/* let myVar = 1;
+let myVar2 = myVar;
+console.log(myVar,myVar2);
+
+myVar2 = 5
+console.log(myVar,myVar2); */
+
+/* const myObj = {
+    name: 'Vasua'
+};
+
+const myObj2 = myObj;
+
+console.log(myObj,myObj2);
+
+myObj2.name = 'Petya';
+console.log(myObj,myObj2); */
+
+
+
+
+/* const myObj = {
+    name: 'Vasua'
+};
+
+// const myObj2 = Object.assign({},myObj)
+const myObj2 = {...myObj}
+console.log(myObj,myObj2);
+
+// myObj2.name = 'Petya';
+console.log(myObj,myObj2); */
+
+
+/* let myArr = [2,3,52];
+let myArr2 = [10,3,5];
+let newMyArray = [...myArr, ...myArr2];
+console.log(newMyArray); */
+
+
+//перебор значений for of
+/* let myArr = [2,4,8];
+for (let prop of myArr){ 
+    console.log(prop *2);
+} */
+
+
+//for in для обьектов
+/* let myObj = {
+    name:'Dima',
+    age: 23,
+}
+
+let newMyArray = [];
+
+for(let prop in myObj){
+    newMyArray.push(prop)
+}
+console.log(newMyArray); */
+
+
+/* let myArr = [12,24,62,6,3,1];
+let newMyArr = myArr.sort((a,b) => a-b);
+console.log(newMyArr); */
+
+
