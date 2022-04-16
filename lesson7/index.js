@@ -150,7 +150,7 @@ myFunc()(10) */
 /* const myFunc = () =>{
     const height = 5;
 
-    return (param) => {
+    return (width,length) => {
         console.log(height * width * length);
     }
 }
@@ -158,12 +158,14 @@ myFunc()(10) */
 myFunc()(3,5) */
 
 //проверка Каррирования
-const myFunc = (a) => {
-    return (b,c) => {
+/* const myFunc = (a) => {
+    return (b) => {
         return (c) =>{
             return a * b * c;
         }
     }
 }
 
-console.log(myFunc(2)(3)(10));
+console.log(myFunc(2)(3)(10)); */
+
+
