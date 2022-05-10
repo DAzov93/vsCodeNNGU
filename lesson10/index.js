@@ -45,6 +45,8 @@
 
 // userDima.animal.voice = 'гав-гав';
 
+//можно было записать так:  let newObj = JSON.parse(JSON.stringify(userDima));
+
 // console.log(userDima.animal.voice);
 // console.log(newObj.animal.voice);
 
@@ -55,14 +57,72 @@
 //работа с API
 //запрос на сервер XHR
 
-let url = "https://jsonplaceholder.typicode.com/users"
-let xhr = new XMLHttpRequest();
+// let url = "https://jsonplaceholder.typicode.com/users"
+// let xhr = new XMLHttpRequest();
 
-xhr.open('GET', url);
+// xhr.open('GET', url);
 
-xhr.send();
-
-
+// xhr.send();
 
 
 
+// xhr.onload = () => console.log(JSON.parse(xhr.response));
+
+// xhr.error = () => {
+//     console.log('ошибка');
+// };
+
+
+
+
+// //=================================================
+// //fetch
+// let url = "https://jsonplaceholder.typicode.com/users";
+
+// const sendRequest = function (url) {
+//    fetch(url).then((response) => response.json()).then((res) => console.log(res))
+// };
+
+// sendRequest(url)
+
+
+
+
+//Map 
+
+// const myObj = {
+//     name: 'Vasya',
+//     surname: 'Ivanov',
+// };
+
+// const myObjToArray = [['name','Vasya'],['surname','Ivanov']];
+
+// // console.log(Object.entries(myObj));
+// // console.log(Object.fromEntries(myObjToArray));
+
+
+// const mapUser = new Map (Object.entries(myObj));
+// mapUser.set('newKey','newValue');
+// console.log(mapUser);
+
+
+
+// let newMap = new Map([['name','Vasya'],['surname','Ivanov']]);
+// console.log(newMap.entries());
+
+
+
+//Set
+
+// const myArr = [1,2,3,4,5,6,5,5,6,10,11,11,14,14,12];
+// const resultToSetMayArr = new Set (myArr);
+// let myNewArr = [];
+// for (let props of resultToSetMayArr){
+//     myNewArr.push(props);
+// };
+
+// console.log(myNewArr);
+
+
+
+//Уроки от Владлена Минина:  
